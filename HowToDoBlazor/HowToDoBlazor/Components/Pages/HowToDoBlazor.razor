@@ -1,0 +1,61 @@
+﻿@page "/Pages/HowToDoBlazor"
+@using HowToDoBlazorWebApp.Components
+
+<header>
+    <h3>How To Do Razor</h3>
+    <button class="btn btn-success mb-4" @onclick="GetGroceryList">Execute Query</button>
+</header>
+<body>
+    @if (howToDoBlazorView.Count == 0)
+    {
+        <p><em>Please enter either a last name or phone number</em></p>
+    }
+    else
+    {
+        <!-- This section defines a TableTemplate for displaying customer infomration-->
+        <TableTemplate Items=" howToDoBlazorView" Context="Grocery">
+            <!-- The following section defines the header row of the table.-->
+            <TableHeader>
+                <!-- Labels information in each column-->
+                <th></th><!-- Empty column for buttons-->
+                <th></th><!-- Empty column for buttons-->
+                <th>ID</th>
+                <th>Name</th>
+                <th>Count</th>
+                <th>MinPrice</th>
+                <th>MaxPrice</th>
+                <th>MinDiscount</th>
+                <th>MaxDiscount</th>
+            </TableHeader>
+            <!-- The following section defines the row template for displaying customer data. -->
+            <RowTemplate>
+                <!-- Display customer information in each column -->
+                <td>@Grocery.ID</td>
+                <td>@Grocery.Name</td>
+                <td>@Grocery.Count</td>
+                <td>@Grocery.MinPrice</td>
+                <td>@Grocery.MaxPrice</td>
+                <td>@Grocery.MinDiscount</td>
+                <td>@Grocery.MaxDiscount</td>
+            </RowTemplate>
+        </TableTemplate>
+    }
+</body>
+@* <footer>
+    @if (feedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer> *@

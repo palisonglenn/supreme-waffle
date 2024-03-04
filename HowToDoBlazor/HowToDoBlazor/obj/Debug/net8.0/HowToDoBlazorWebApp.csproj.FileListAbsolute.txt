@@ -1,0 +1,6 @@
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.csproj.AssemblyReference.cache
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.AssemblyInfoInputs.cache
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.AssemblyInfo.cs
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Alison\source\repos\HowToDoBlazor\HowToDoBlazor\obj\Debug\net8.0\HowToDoBlazorWebApp.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,13 @@
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.csproj.AssemblyReference.cache
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.AssemblyInfoInputs.cache
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.AssemblyInfo.cs
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.csproj.CoreCompileInputs.cache
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.sourcelink.json
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\bin\Debug\net8.0\BlazorSearchListSystem.deps.json
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\bin\Debug\net8.0\BlazorSearchListSystem.dll
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\bin\Debug\net8.0\BlazorSearchListSystem.pdb
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.dll
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\refint\BlazorSearchListSystem.dll
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\BlazorSearchListSystem.pdb
+C:\Users\haile\Documents\GitHub\supreme-waffle\BlazorSearchList\BlazorSearchListSystem\obj\Debug\net8.0\ref\BlazorSearchListSystem.dll

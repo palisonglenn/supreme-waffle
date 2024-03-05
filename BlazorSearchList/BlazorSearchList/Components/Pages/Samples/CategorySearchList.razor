@@ -1,0 +1,78 @@
+﻿@page "/samples/CategorySearchList"
+@using BlazorSearchList.Components.Layout
+
+<h3>CategorySearchList</h3>
+
+<p>Hi @name</p>
+
+<InputText @bind-Value="name">
+    Enter your name
+</InputText>
+
+@*
+    Same as
+    <input type="text" @bind-Value="name"></input>
+*@
+
+
+
+<div class="d-flex ">
+    <div class="my-2 mx-2">
+        <button class="button btn-primary" @onclick="ShowFeedback">Show feedback</button>
+    </div>
+
+    <div class="my-2 mx-2">
+        <button class="button btn-primary" @onclick="HideFeedback">Hide feedback</button>
+    </div>
+</div>
+
+@if (feedback.Length > 0)
+{
+    <p>@feedback</p>
+}
+
+
+@if (CategoryList.Count == 0)
+{
+    <div class="my-2 mx-2">
+        <button class="button btn-primary" @onclick="GetGroceryList">Execute Query</button>
+    </div>
+}
+else
+{
+    <!-- This section defines a TableTemplate for displaying customer infomration-->
+    <TableTemplate Items="CategoryList" Context="item">
+        <!-- The following section defines the header row of the table.-->
+        <TableHeader>
+            <!-- Labels information in each column-->
+            <th></th><!-- Empty column for buttons-->
+            <th></th><!-- Empty column for buttons-->
+            <th>ID</th>
+            <th>Name</th>
+            <th>Count</th>
+            <th>MinPrice</th>
+            <th>MaxPrice</th>
+            <th>MinDiscount</th>
+            <th>MaxDiscount</th>
+        </TableHeader>
+        <!-- The following section defines the row template for displaying customer data. -->
+        <RowTemplate>
+            <!-- Display customer information in each column -->
+            <td></td>
+            <td></td>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Count</td>
+            <td>@item.MinPrice</td>
+            <td>@item.MaxPrice</td>
+            <td>@item.MinDiscount</td>
+            <td>@item.MaxDiscount</td>
+        </RowTemplate>
+    </TableTemplate>
+}
+
+@code {
+
+}
+
+

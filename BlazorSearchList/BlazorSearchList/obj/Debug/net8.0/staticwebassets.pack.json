@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\haile\\Documents\\GitHub\\supreme-waffle\\BlazorSearchList\\BlazorSearchList\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorSearchList.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorSearchList.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\haile\\Documents\\GitHub\\supreme-waffle\\BlazorSearchList\\BlazorSearchList\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\haile\\Documents\\GitHub\\supreme-waffle\\BlazorSearchList\\BlazorSearchList\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\haile\\Documents\\GitHub\\supreme-waffle\\BlazorSearchList\\BlazorSearchList\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\haile\\Documents\\GitHub\\supreme-waffle\\BlazorSearchList\\BlazorSearchList\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorSearchList.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorSearchList.props",
+      "PackagePath": "build\\BlazorSearchList.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorSearchList.props",
+      "PackagePath": "buildMultiTargeting\\BlazorSearchList.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorSearchList.props",
+      "PackagePath": "buildTransitive\\BlazorSearchList.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
